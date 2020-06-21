@@ -10,27 +10,30 @@
     </title>
 </head>
 <body>
-    <header class="header active">
+    <header class="header header--active">
         <div class="wrapper">
             <div class="header_inner">
-                <a href="#" class="header_logo">
-                    <img src="./assets/images/png/header/header-logo.png" alt="Club Residence">
+                <a href="#" class="header_logo header_logo--margin">
+                    <img class="header_logo--img" src="./assets/images/png/header/header-logo.png" alt="Club Residence">
                 </a>
-                <div class="header_phone">
-                    <button class="header_call">
-                        8 (800) 77-512-77
+                <div class="header_phone header_phone--margin">
+                    <button type="button" class="header_call header_phone--text">
+                        <svg class="phone_call" width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M4.00432 5.45882C3.06853 4.52244 2.17296 3.43759 2.60182 3.00873C3.21523 2.39533 3.74997 2.01675 2.66215 0.663345C1.57493 -0.689469 0.849727 0.349837 0.255837 0.944318C-0.43033 1.63049 0.219163 4.18823 2.74674 6.7164C5.27491 9.24398 7.83266 9.8917 8.51883 9.20494C9.1139 8.61046 10.1526 7.8888 8.7998 6.80158C7.44699 5.71377 7.06841 6.24792 6.45441 6.86251C6.02556 7.28959 4.9407 6.39461 4.00432 5.45882Z" fill="#A68E52"/>
+                        </svg>     
+                        8 (800) 77-512-77                   
                     </button>
-                    <a href="#" class="header_order">
+                    <a href="#" class="header_order header_order--margin header_phone--text">
                         Заказать звонок
                     </a>
                 </div>
-                <div class="header_language">
+                <div class="header_language header_phone--text">
                     UA
                 </div>
             </div>
-            <div class="header_content">
+            <div class="header_content header_content--margin">
                 <div class="slider">
-                    <span class="slider_show">
+                    <span class="slider_show slider_show--active slider_show--margin">
                         01
                     </span>
                     <span class="slider_show">
@@ -38,30 +41,36 @@
                     </span>
                 </div>
                 <div class="header_main">
-                    <h3 class="header_subtitle">
+                    <h3 class="header_subtitle header_subtitle--margin">
                         Жилой комплекс КЛАБ РЕЗИДЕНС
                     </h2>
-                    <h1 class="header_title">
+                    <h1 class="header_title header_title--margin">
                         Квартиры уже в продаже!
                     </h2>
-                    <button class="header_about">
+                    <button type="button" class="header_about">
                         О КОМПЛЕКСЕ     
                     </button>
                 </div>
             </div>
             <div class="slider_navigation">
                 <div class="slider_dots">
-                    <span class="dot active"></span>
-                    <span class="dot"></span>
+                    <button type="button" class="dot dot--active"></button>
+                    <button type="button" class="dot"></button>
                 </div>
                 <div class="slider_arrows">
-                    <button class="arrow"></button>
-                    <button class="arrow"></button>
+                    <button type="button" class="arrow arrow_left"></button>
+                    <button type="button" class="arrow arrow_right"></button>
                 </div>
             </div>
             <div class="header_down">
-                <div class="header_location">
-                    Киев, переулок Радистов, 14а
+                <div class="header_location header_location--margin">
+                    <svg class="location_img" width="9" height="13" viewBox="0 0 9 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M4.4668 0C2.0032 0 1.5827e-07 2.0032 0 4.4668C-1.05513e-07 6.25815 1.08482 8.16774 2.14633 9.65386C3.20784 11.14 4.27 12.202 4.27 12.202C4.32235 12.2543 4.39332 12.2837 4.46732 12.2837C4.54132 12.2837 4.61229 12.2543 4.66464 12.202C4.66464 12.202 5.72679 11.14 6.7883 9.65386C7.84981 8.16774 8.93361 6.25815 8.93361 4.4668C8.93361 2.0032 6.9304 0 4.4668 0ZM4.4668 0.558479C6.62865 0.558479 8.37513 2.30495 8.37513 4.4668C8.37513 6.02551 7.36617 7.8841 6.33389 9.32928C5.40023 10.6364 4.63657 11.3972 4.4668 11.5704C4.29673 11.3968 3.5342 10.6361 2.60074 9.32928C1.56847 7.8841 0.558479 6.02551 0.558479 4.4668C0.558479 2.30495 2.30495 0.558479 4.4668 0.558479Z" fill="#A68E52"/>
+                        <path d="M4.46688 2.51221C3.39091 2.51221 2.51323 3.39092 2.51323 4.46688C2.51323 5.54285 3.39091 6.42156 4.46688 6.42156C5.54284 6.42156 6.42155 5.54285 6.42155 4.46688C6.42155 3.39092 5.54284 2.51221 4.46688 2.51221ZM4.46688 3.07069C5.24109 3.07069 5.86307 3.69267 5.86307 4.46688C5.86307 5.2411 5.24109 5.86308 4.46688 5.86308C3.69266 5.86308 3.07171 5.2411 3.07171 4.46688C3.07171 3.69267 3.69266 3.07069 4.46688 3.07069Z" fill="#A68E52"/>
+                    </svg>
+                    <p class="header_location">
+                        Киев, переулок Радистов, 14а
+                    </p>
                 </div>
                 <div class="header_metro">
                     <a href="#" class="metro">
