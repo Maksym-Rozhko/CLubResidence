@@ -169,28 +169,78 @@
         </header><!-- Second-SLide END -->
     </header><!-- Header-SLider END -->
     <section class="gallery"><!-- Section gallery START -->
-        <div class="gallery_slider">
-            <div class="gallery_navigator">
-                <div class="gallery_dots">
-                    <span class="nav_dot"></span>
-                    <span class="nav_dot nav_dot--active">ГАЛЕРЕЯ</span>
-                    <span class="nav_dot"></span>
-                    <span class="nav_dot"></span>
-                    <span class="nav_dot"></span>
-                </div>
-                <div class="gallery_arrows">
-                    <button type="button" class="nav_arrow nav_arrow--left" id="arrowPrev"></button>
-                    <button type="button" class="nav_arrow nav_arrow--right" id="arrowNext"></button>
+        <div class="wrapper">
+            <div class="gallery_slider">
+                <div class="gallery_navigation">
+                    <div class="gallery_dots">
+                        <span class="nav_dot"></span>
+                        <span class="nav_dot nav_dot--active">
+                            <span class="nav_dot--text">ГАЛЕРЕЯ</span>
+                        </span>
+                        <span class="nav_dot"></span>
+                        <span class="nav_dot nav_dot--dot"></span>
+                        <span class="nav_dot nav_dot--dot"></span>
+                    </div>
+                    <div class="slider_arrows">
+                        <button type="button" class="arrow arrow_left" id="arrowPrev"></button>
+                        <button type="button" class="arrow arrow_right" id="arrowNext"></button>
+                    </div>
                 </div>
             </div>
-            <div class="gallery_bg">
-                <img class="gallery_img" src="./assets/images/png/gallery/йолка.png" alt="bg-gallery">
+            <div class="gallery_box">
+                <div class="gallery_control">
+                    <div class="controller">
+                        <div class="controller_select controller_first">
+                            <span class="select_text first_select">
+                                КЛУБНЫЙ ДОМ
+                            </span>
+                        </div>
+                        <div class="controller_select controller_second">
+                            <span class="select_text second_select">
+                                КЛАБ РЕЗИДЕНС
+                            </span>
+                        </div>
+                        <div class="controller_button">
+                            <div class="gallery_dots dots_controll">
+                                <span class="nav_dot dot_controll dot_controll--active"></span>
+                                <span class="nav_dot dot_controll"></span>
+                                <span class="nav_dot dot_controll"></span>
+                                <span class="nav_dot dot_controll"></span>
+                                <span class="nav_dot dot_controll"></span>
+                            </div>
+                            <div class="slider_arrows gallery_arrows">
+                                <button type="button" class="arrow arrow_left galleryBtn galBtnPrev" id="galleryPrev"></button>
+                                <button type="button" class="arrow arrow_right galleryBtn galBtnNext" id="galleryNext"></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery_images">
+                    <div class="images_box images_box--active">
+                        <img src="./assets/images/png/gallery/gallery12.png" alt="img_select">
+                    </div>
+                    <div class="images_box">
+                        <img src="./assets/images/png/gallery/gallery13.png" alt="img_2">
+                    </div>
+                    <div class="images_box">
+                        <img src="./assets/images/png/gallery/gallery13.png" alt="img_3">
+                    </div>
+                    <div class="images_box">
+                        <img src="./assets/images/png/gallery/gallery13.png" alt="img_4">
+                    </div>
+                    <div class="images_box">
+                        <img src="./assets/images/png/gallery/gallery13.png" alt="img_5">
+                    </div>
+                </div>
             </div>
         </div>
         <div class="gallery_photo">
-            <img class="gallery_slide" src="./assets/images/png/gallery/gallery11.png" alt="photo1">
+            <img class="gallery_img" src="./assets/images/png/gallery/gallery11.png" alt="">
         </div>
     </section><!-- Section gallery END -->
+    <section class="big_section">
+        
+    </section>
     <script src="./js/app.js"></script>
 </body>
 </html>
