@@ -10,8 +10,8 @@
     </title>
 </head>
 <body>
-    <header class="slider_main">
-        <header class="header active">
+    <header class="slider_main"> <!-- Header-SLider START -->
+        <header class="header active"><!-- First-SLide START -->
             <div class="wrapper">
                 <div class="header_inner">
                     <a href="#" class="header_logo header_logo--margin">
@@ -88,8 +88,8 @@
                     </div>
                 </div>
             </div>
-        </header>
-        <header class="header header_hidden">
+        </header><!-- First-SLide END -->
+        <header class="header header_hidden"><!-- Second-SLide START -->
             <div class="wrapper">
                 <div class="header_inner">
                     <a href="#" class="header_logo header_logo--margin">
@@ -166,8 +166,31 @@
                     </div>
                 </div>
             </div>
-        </header>
-    </header>
+        </header><!-- Second-SLide END -->
+    </header><!-- Header-SLider END -->
+    <section class="gallery"><!-- Section gallery START -->
+        <div class="gallery_slider">
+            <div class="gallery_navigator">
+                <div class="gallery_dots">
+                    <span class="nav_dot"></span>
+                    <span class="nav_dot nav_dot--active">ГАЛЕРЕЯ</span>
+                    <span class="nav_dot"></span>
+                    <span class="nav_dot"></span>
+                    <span class="nav_dot"></span>
+                </div>
+                <div class="gallery_arrows">
+                    <button type="button" class="nav_arrow nav_arrow--left" id="arrowPrev"></button>
+                    <button type="button" class="nav_arrow nav_arrow--right" id="arrowNext"></button>
+                </div>
+            </div>
+            <div class="gallery_bg">
+                <img class="gallery_img" src="./assets/images/png/gallery/йолка.png" alt="bg-gallery">
+            </div>
+        </div>
+        <div class="gallery_photo">
+            <img class="gallery_slide" src="./assets/images/png/gallery/gallery11.png" alt="photo1">
+        </div>
+    </section><!-- Section gallery END -->
     <script src="./js/app.js"></script>
 </body>
 </html>
