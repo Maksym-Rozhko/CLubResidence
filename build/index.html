@@ -10,6 +10,27 @@
     </title>
 </head>
 <body>
+    <div class="pop_up">
+        <button class="pop_close" type="button" onclick="this.parentElement.style.display='none';"></button>
+        <form class="pop_form" action="https://fom.in.ua/echo" method="POST">
+            <fieldset class="popup_form">
+                <div class="popup_content">
+                    <h2 class="pop_title">
+                        Заказать звонок
+                    </h2>
+                    <label class="pop_label">
+                        <input class="pop_input" placeholder="Имя:*" type="text" name="name">
+                    </label>
+                    <label class="pop_label">
+                        <input class="pop_input" placeholder="Телефон:*" type="tel" name="tel">
+                    </label>
+                    <button type="submit" class="header_about">
+                        ОТПРАВИТЬ
+                    </button>
+                </div>
+            </fieldset>
+        </form>
+    </div>
     <header class="slider_main"> <!-- Header-SLider START -->
         <header class="header active"><!-- First-SLide START -->
             <div class="wrapper">
@@ -571,7 +592,7 @@
             </div>  
         </div>
     </section><!-- section ofice END -->
-    <footer class="footer">
+    <footer class="footer"><!-- footer START-->
         <div class="wrapper">
             <div class="footer_box">
                 <div class="footer_logo">
@@ -618,7 +639,7 @@
                 </div>
             </div>
         </div>
-    </footer>
+    </footer><!-- footer END -->
     <script src="./js/app.js"></script>
 </body>
 </html>
